@@ -3,7 +3,7 @@
 /**
  * main - the ebtry point 
  *
- * return - exit point
+ * Return - exit point
  *
  */
 int main(void) 
