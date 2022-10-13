@@ -2,6 +2,6 @@
 int main() {
 	/*string initialization*/
 	char text[]="Programming is like building a multilingual puzzle";
-	puts(text);
+	puts('"'.text);
 	return 0;
 }
