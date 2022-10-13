@@ -1,8 +1,13 @@
 #include <stdio.h>
 int main(void) 
 {
-/*string initialization*/
-char text[]="\"Programming is like building a multilingual puzzle";
+/*
+ * main - function to execute
+ * @text - string initialization
+ *
+ * return - ends the main function
+*/
+char text[] = "\"Programming is like building a multilingual puzzle";
 puts(text);
 return (0);
 }
