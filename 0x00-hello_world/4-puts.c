@@ -1,12 +1,13 @@
 #include <stdio.h>
-int main(void) 
-{
-/*
- * main - function to execute
- * @text - string initialization
+
+/**
+ * main - Entry point
+ *@text - initializes variableq
  *
- * return - ends the main function
-*/
+ * Return: Exit point
+ */
+int main(void)
+{
 char text[] = "\"Programming is like building a multilingual puzzle";
 puts(text);
 return (0);
