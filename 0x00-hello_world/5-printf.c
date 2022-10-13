@@ -1,10 +1,8 @@
 #include <stdio.h>
-
 /**
- * main - the ebtry point 
+ * main - the entry point 
  *
- * Return - exit point
- *
+ * Return - returns 0 on success 
  */
 int main(void) 
 {
