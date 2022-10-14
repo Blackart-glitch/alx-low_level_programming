@@ -1,10 +1,12 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include<stdlib.h>
+#include<time.h>
+#include<stdio.h>
+
 /**
- * main - the entry point for the program
+ * main - Entry point
  *
- * Return: returns 0 (success)
+ * Description: This program assigns random values to outputs
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -12,17 +14,18 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-if(n>0;)
-{
-	printf("is positive\n");
-}
-else if(n=0;)
-{
-	printf("is zero\n");
-}
-else if(n<0;)
-{
-	printf("is negative\n");
-}
+	if (n > 0)
+	{
+		printf("%i is positive\n", n);
+	}
+	else if (n == 0)
+	{
+		printf("%i is zero\n", n);
+	}
+	else if (n < 0)
+	{
+		printf("%i is negative\n", n);
+	}
+
 	return (0);
 }
