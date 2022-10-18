@@ -8,6 +8,7 @@
  */
 int main(void)
 {
-	printf("_putcha\nr");
+	printf("_putchar");
+	printf("\n");
 	return(0);
 }
