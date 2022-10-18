@@ -6,12 +6,11 @@
  *
  * Return: l
  */
-
-
 int print_last_digit(int n)
 {
-	int l ;
+	int l;
 
 	l = n % 10;
-	return (l);
+	p = '0' + l;
+	return (p);
 }
