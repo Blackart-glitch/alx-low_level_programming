@@ -1,25 +1,17 @@
 #include "main.h"
 
 /**
- * _isupper - finds uppercase
- *@c:  varable to test
+ * _isupper - checks for uppercase letters
+ * @c: character to check
  *
- * Return: 1 (success) 0 (failed)
+ * Return: 0 or 1
  */
+
 
 int _isupper(int c)
 {
-	int i;
-
-	for (i = 'A'; i <= 'Z'; i++)
-	{
-		if (c = i)
-		{
+	if (c >= 'A' && c <= 'Z')
 		return (1);
-		}
-		else
-		{
+	else
 		return (0);
-		}
-	}
 }
