@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _isupper - finds uppercase
@@ -14,7 +13,7 @@ int _isupper(int c)
 
 	for (i = 'A'; i <= 'Z'; i++)
 	{
-		if (a == i)
+		if (c == i)
 		{
 		return (1);
 		}
