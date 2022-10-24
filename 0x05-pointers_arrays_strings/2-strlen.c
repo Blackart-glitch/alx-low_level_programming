@@ -12,6 +12,6 @@ int _strlen(char *s)
 	char y, count;
 
 	y = *s;
-	for (count = 0; str[count] != '\0'; ++count);
+	for (count = 0; y[count] != '\0'; ++count);
 	return (count);
 }
