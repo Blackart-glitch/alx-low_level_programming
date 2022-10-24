@@ -1,17 +1,16 @@
 #include "main.h"
 
 /**
- * reset_to_98 - resets value to 98
- * main - check the code
- * @n: the pointer
+ * _strlen - returns the length of a string
+ * @s: string to find length of
  *
- * Return: Always 0.
+ * Return: length of s
  */
 int _strlen(char *s)
 {
-	char y, count;
+	int i = 0;
 
-	y = *s;
-	for (count = 0; y[count] != '\0'; ++count);
-	return (count);
+	while (*(s + i))
+		i++;
+	return (i);
 }
