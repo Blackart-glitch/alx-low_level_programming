@@ -1,16 +1,26 @@
 #include "main.h"
-/**
- * _strncat - the main function
- *
- * @dest - first string
- * @src - second string
- * @n - number of bytes
- *
- * Return: tconcatenated string
- */
-char *_strncat(char *dest, char *src, int n)
-{
-	*dest = *dest.*src;
 
-	return(*dest);
+/**
+ * _strcat - concat 2 string
+ * @dest:char
+ * @src:char
+ * Return:char
+ */
+char *_strcat(char *dest, char *src)
+{
+	char *s = dest;
+
+	while (*dest != '\0')
+	{
+		dest++;
+	}
+
+	while (*src != '\0')
+	{
+		*dest = *src;
+		dest++;
+		src++;
+	}
+	*dest = '\0';
+	return (s);
 }
