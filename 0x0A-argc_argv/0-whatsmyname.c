@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * main - displays the program name
  * @argc: the argument counter
@@ -6,8 +6,9 @@
  *
  * Return: returns 0 on success
  */
-main(int argc, int argv[8]){
-	_putchar(argv[0]);
 
+int main(int argc __attribute__((unused)), char *argv[])
+{
+	printf("%s\n", argv[0]);
 	return (0);
 }
