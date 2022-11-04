@@ -1,4 +1,6 @@
 static libraries
+	src_files contains the source codes
+	exe_files contain the compiled code
 
 1.i created all of these functions listed below
 
