@@ -1,16 +1,18 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 /**
- * main - displays the program name
- * @argc: the argument counter
- * @argv[]: the argument vector
- *
- * Return: returns 0 on success
+ * main - Entry point
+ * @argc: argument count
+ * @argv: argument vector
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
 {
 	(void)argc;
+
 	printf("%s\n", argv[0]);
 
-	return (0);
+	exit(EXIT_SUCCESS);
 }
