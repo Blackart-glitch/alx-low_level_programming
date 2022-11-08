@@ -1,5 +1,4 @@
-include "holberton.h"
-#include <stdio.h>
+include "main.h"
 #include <stdlib.h>
 /**
  **argstostr -  a function that concatenates all the arguments of your program.
@@ -7,6 +6,7 @@ include "holberton.h"
  *@av : array
  *Return: array
  */
+
 char *argstostr(int ac, char **av)
 {
 	int x, y, i, j, l = 0, a = 0;
